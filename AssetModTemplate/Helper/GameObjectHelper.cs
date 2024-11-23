@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace MakimaVS;
+namespace MyAssetMod;
 public class GameObjectHelper
 {
     public static GameObject GetGameObjectCheckFound(string path)
@@ -8,7 +8,7 @@ public class GameObjectHelper
         GameObject go = GameObject.Find(path);
         if (go == null)
         {
-            MakimaVS.Logger.LogError(path + " gameobject not found");
+            MyAssetMod.Logger.LogError(path + " gameobject not found");
         }
         return go;
     }

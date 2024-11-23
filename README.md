@@ -1,3 +1,1 @@
-# MakimaVS
-
-I will upload the source code later, but I tired rn.
+Template mod for overriding assets in VS. See the wiki for information about how to get started.
