@@ -71,7 +71,7 @@ namespace MyAssetMod
                 }
 
                 // Nail emission color and body color example
-                /*
+                // Delete this code if you dont want to change them
                 if (body == null)
                 {
                     body = GameObjectHelper.GetGameObjectCheckFound("GirlCharacter/Body");
@@ -80,7 +80,6 @@ namespace MyAssetMod
                 body.GetComponent<SkinnedMeshRenderer>().materials[2].SetColor("_Emission", new Color(0, 0, 0.3f, 1));
                 //body
                 body.GetComponent<SkinnedMeshRenderer>().materials[0].SetColor("_Color", new Color(0.2f, 0.2f, 1, 1));
-                */
             }
         }
 
@@ -221,7 +220,7 @@ namespace MyAssetMod
             hair.transform.SetParent(hair_pos.transform, false);
 
             //I found these positional values to work best for my hair asset. You will have to play with them in UnityExplorer to find the right positioning for yours.
-            //You may also need to asjust scale.
+            //You may also need to adjust scale.
             /*
              * The Quaternion.identity is just zero rotation. If you need something else:
              * Quaternion myRotation = Quaternion.identity;

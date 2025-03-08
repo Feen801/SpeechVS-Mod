@@ -8,7 +8,6 @@ public class Assets
     public static GameObject hair;
     public static Texture2D eyes;
     public static GameObject background;
-    public static Texture2D skin;
     public static void LoadAssets()
     {
         //Find where the asset bundle is, and load it.
