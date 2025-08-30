@@ -5,14 +5,14 @@ using System.Linq;
 using UnityEngine;
 using HutongGames.PlayMaker;
 
-namespace MyAssetMod.Helper;
+namespace SpeechVS.Helper;
 
 public class FindFsmString
 {
     public static void SearchAllGameObjects()
     {
         // Get all GameObjects in the scene
-        GameObject[] allGameObjects = MyAssetMod.FindObjectsOfType<GameObject>();
+        GameObject[] allGameObjects = SpeechVS.FindObjectsOfType<GameObject>();
         Debug.Log($"Trying my best boss!");
 
         foreach (GameObject gameObject in allGameObjects)

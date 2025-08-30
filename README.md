@@ -1,1 +1,2 @@
-Template mod for overriding assets in VS. See the wiki for information about how to get started.
+
+
